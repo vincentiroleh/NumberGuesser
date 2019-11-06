@@ -36,7 +36,7 @@ namespace NumberGuesser
                     // make sure its a number
                     if (!int.TryParse(guessInput, out guess))
                     {
-                        PrintColorMessage(ConsoleColor.Red, "Please use an actual number");                       
+                        PrintColorMessage(ConsoleColor.Red, "Please use an actual number");
 
                         continue;
                     }
